@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+         hr{
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px 0 0 0;
+    border-radius:20px;
+}
+hr::before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+         .paks a{
+           text-decoration: none;
+           color: aliceblue;
+           line-height: 1.5em;
+           transition:margin 0.5s ease-in-out;
+       }
+       .paks a{
+           font-size: 49px;
+       }
+       .paks a:hover,
+       .paks a:focus{
+           font-size: 78px;
+           text-shadow: 0 0 5px purple;
+           margin-left: 0.5em;
+           outline: none;
+           position: relative;
+       }
+       .paks a::before{
+           position: absolute;
+           left: -1em;
+           content: ">";
+           color:transparent;
+       }
+       h1 {
+           font-size: 500px;
+       }
+       h2 {
+           font-size: 89px;
+           border-left-color: orange;
+           color:white;
+       }
+       body::before {
+  content: '>';
+  left: 0; 
+  right: 0; 
+  top: 0; 
+  bottom: 0; 
+  z-index: -1; 
+  background-image: url(./images/ffon.jpg); /* Путь к картинке */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  filter: blur(5px); /* Размытие картинки */
+}
+    </style>
+    <meta charset="UTF-8">
+    <title>LevOn Paks</title>
+    <center><h1>LevOn</h1></center>
+     <center><h2>Պակեր))</h2></center>
+</head>
+<body>
+    <hr/>
+    <center>  <h2>Ահա նրանք)))</h2></center>
+    <br/>
+        <br/>
+            <br/>
+                <br/>
+                    <br/>
+                        <br/>
+                            <br/>
+                                <br/>
+        <br/>
+        <br/>
+        <br/>
+            <br/>
+            <div class="paks">
+                 <a href="https://disk.yandex.ru/d/cQphr24WIp_Amw"><img src="./images/kokok kiki gulu gulu gu pa pa.png" width="450" height="275" >Նկար Պատրաստելու պակը</a> </div>
+                  <br/>
+                  <div class="paks">
+                   <a href="https://disk.yandex.ru/d/J4EjZKTI0gTDSQ"><img src="./images/Stayl photo.png" width="450" height="275" >Սթայլերի Պակկկ)))</a>
+                   
+    </div>
+</body>
+</html>

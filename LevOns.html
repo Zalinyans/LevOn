@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="LevOnMenu" herf="LevOnMenu.html">
+   <style>
+       hr {
+           border-color: cornflowerblue;
+       }
+       a  {
+           font-size: 50px;
+           color:white;
+       }
+       h5 {
+           font-size: 25px;
+           font-style: italic;
+           text-emphasis-color: white;
+           color: gray;
+       }
+      
+       h1 {
+           font-size: 122px;
+           font-style: italic;
+       }
+        p {
+           font-size: 48px;
+            color: white;
+       }
+       .menu a{
+           text-decoration: none;
+           color: aliceblue;
+           line-height: 1.5em;
+           transition:margin 0.5s ease-in-out;
+       }
+       .menu a:hover,
+       .menu a:focus{
+           text-shadow: 0 0 5px red;
+           margin-left: 0.5em;
+           outline: none;
+           position: relative;
+       }
+       .menu a::before{
+           position: absolute;
+           left: -1em;
+           content: ">";
+           color:transparent;
+       }
+    hr{
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr::before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+body::before {
+  content: '';
+  left: 0; 
+  right: 0; 
+  top: 0; 
+  bottom: 0; 
+  z-index: -1; 
+  background-image: url(./images/ffon.jpg); /* Путь к картинке */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  filter: blur(5px); /* Размытие картинки */
+}
+     
+    </style>
+    <meta charset="UTF-8">
+    <title>LevOn</title>
+    <center> <img src="./images/Logo.png" alt="Logo" height="650" width="650"></center>
+    <center><h1>LevOn</h1></center>
+</head>
+<body>
+<center><p>Այստեղ դու կարող ես<br/>
+քաշել քո ուզած սկիները<br/>
+որոնք որ քեզ դուր են գալի<br/>
+   <a href="./skins/9.png" download="skin"><img src="./imgskins/9.png" alt="skin body" height="650" width="440" align="right"></a>
+<a href="./skins/1.png" download="skin"><img src="./imgskins/1.png" alt="skin body" height="650" width="440" align="left"></a>
+<center><a href="./skins/2.png" download="skin"><img src="./imgskins/2.png" alt="skin body" height="650" width="440" ></a></center>
+   <a href="./skins/3.png" download="skin"><img src="./imgskins/3.png" alt="skin body" height="650" width="440" align="right"></a>
+<a href="./skins/4.png" download="skin"><img src="./imgskins/4.png" alt="skin body" height="650" width="440" align="left"></a>
+<center><a href="./skins/5.png" download="skin"><img src="./imgskins/5.png" alt="skin body" height="650" width="440"></a></center>
+   <a href="./skins/6.png" download="skin"><img src="./imgskins/6.png" alt="skin body" height="650" width="440" align="right"></a>
+   <a href="./skins/7.png" download="skin"><img src="./imgskins/7.png" alt="skin body" height="650" width="440" align="left"></a>
+<center><a href="./skins/8.png" download="skin"><img src="./imgskins/8.png" alt="skin body" height="650" width="440"></a></center>
+
+    
+</p></center>
+ <hr/>
+   <center> <h5>ԱՅՍ ԿԱՅՔԸ ՍԱՐՔԵԼ Է LevOn-նն</h5></center>
+</body>
+</html>
